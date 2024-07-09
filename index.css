@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  font-size: 24px;
+  padding: 0;
+  background: #fff url(images/downtown.jpg) center top/contain repeat local;
+  color: #fff; /* Change the text color to white */
+}
+
+img {
+  border: 0px solid #ddd;
+  border-radius: 0px;
+  padding: 5px;
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+/* Header Styles */
+header {
+  background-color: #000000; /* Change the background color to black */
+  color: #fff;
+  padding: 50px;
+  position: relative; /* Add this line for positioning */
+}
+
+h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: bold;
+  position: absolute; /* Add this line for positioning */
+  top: 10px; /* Adjust the top position as needed */
+  left: 10px; /* Adjust the left position as needed */
+}
+
+/* Container Styles */
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 69px;
+  background-color: #292929; /* Change the background color to a dark color */
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #555; /* Change the border color to a darker shade */
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #333; /* Change the background color to a dark color */
+  color: #fff; /* Change the text color to white */
+}
+
+.container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff; /* Change the background color to a suitable color */
+  color: #000000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.container button:hover {
+  background-color: #6b6b6b;
+}
+
+/* Navigation Styles */
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #585858;
+  text-decoration: none;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #007bff;
+}
+
+/* Main Content Styles */
+main {
+  background-color: #5b5b5b; /* Change the background color to a dark color */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Change the text color to white */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #171717; /* Change the background color to a dark color */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff; /* Change the text color to white */
+}
